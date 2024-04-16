@@ -1,0 +1,128 @@
+/* styling home page */
+.home {
+  width: 100vw;
+  display: flex;
+  background-image: url(../img/home.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  color: white;
+  padding: 15vh 5vw 10px 5vw;
+}
+.home h1 {
+  font-size: 4rem;
+  line-height: 4rem;
+  text-shadow: 2px 2px 3px black;
+}
+.home h1 .author {
+  font-size: 2rem;
+  display: inline;
+  text-transform: capitalize;
+}
+.home .left p {
+  font-size: 1.2rem;
+  padding: 10px 0px;
+}
+.home .left button {
+  width: 100px;
+}
+.home .right img {
+  height: 500px;
+  padding: 0px 10px;
+}
+
+/* styling course */
+.courses {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.courses .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 25vw;
+  border: 1px solid grey;
+  border-radius: 15px;
+  margin: 10px 30px;
+}
+.box img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 200px;
+}
+.box .inner_box {
+  padding: 20px;
+}
+.box p {
+  color: grey;
+}
+.courses .main_btn {
+  width: 300px;
+  margin: 20px 0px;
+}
+
+/* styling partners */
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: blue;
+  justify-content: center;
+}
+.partners .images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+}
+.partners .images img {
+  width: 150px;
+  margin: 20px;
+}
+
+/* styling founder */
+.founder {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.founder .web_links {
+  display: flex;
+}
+.founder .web_links img {
+  width: 40px;
+  margin: 10px;
+}
+.founder img {
+  width: 200px;
+  clip-path: circle(50% at 50% 50%);
+}
+.founder p {
+  margin: 0px 20vw 30px 20vw;
+}
+/* styling footer */
+/* .footer {
+  display: flex;
+  align-items: center;
+  margin: 5px 0px;
+  background-color: blue;
+  padding: 10px 20px;
+}
+.footer img {
+  width: 40px;
+}
+.footer .secondary_heading {
+  font-size: 20px;
+  text-shadow: none;
+} */

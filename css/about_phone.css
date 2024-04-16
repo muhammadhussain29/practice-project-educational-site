@@ -1,0 +1,25 @@
+/* .about{
+    flex-direction: column;
+} */
+.about img{
+    display: none;
+}
+.about .para{
+    font-size: 0.7rem;
+    line-height: 1.5rem;
+    /* text-align: justify; */
+}
+.story img{
+    display: none;
+}
+.story p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.contact .inner_sec .contact_sec {
+    margin: 0%;
+}
+
+.founder p {
+    margin: 0px 5vw 15px 5vw;
+  }

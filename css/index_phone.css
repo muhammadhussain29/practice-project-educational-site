@@ -1,0 +1,14 @@
+/* reseting tags and  atributes for makeing index page responsive */
+
+.home .left h1 {
+  font-size: 3rem;
+}
+.home .left h1 .author {
+  font-size: 1.5rem;
+}
+.home .right {
+  display: none;
+}
+.founder p {
+  margin: 0px 5vw 15px 5vw;
+}

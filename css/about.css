@@ -1,0 +1,167 @@
+/* about section */
+.about {
+  background-color: blue;
+  padding: 15vh 5vw 10px 5vw;
+  display: flex;
+  text-align: left;
+  align-items: center;
+}
+.about img{
+  height: 40vw;
+}
+.about .inner_about {
+  padding: 30px 40px;
+}
+.about .inner_about .para {
+  color: white;
+  font-size: 1.5rem;
+}
+.about .inner_about .about_btn {
+  background-color: grey;
+  padding: 5px;
+  margin: 20px 2px;
+  width: 100px;
+}
+.about .inner_about .about_btn:hover {
+  background-color: rgb(90, 90, 90);
+}
+/* styling story  */
+.story {
+  display: flex;
+  padding: 20px 5vw;
+  align-items: center;
+  justify-content: center;
+}
+.story .inner_story {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 30px;
+}
+.story p {
+  font-size: 1.5rem;
+}
+.story img {
+  height: 40vw;
+}
+.mission {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 5vw;
+}
+.mission img {
+  width: 50%;
+  height: 50%;
+}
+.mission .inner_mission {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px;
+}
+.mission p {
+  color: white;
+  font-size: 1.5rem;
+}
+/* styling founder */
+.founder {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 5vw;
+}
+.founder .web_links {
+  display: flex;
+}
+.founder .web_links img {
+  width: 40px;
+  margin: 10px;
+}
+.founder img {
+  width: 200px;
+  clip-path: circle(50% at 50% 50%);
+}
+.founder p {
+  margin: 0px 20vw 30px 20vw;
+}
+/* styling team  */
+.team {
+  background-color: blue;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 5vw;
+}
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.members .mem_box img {
+  clip-path: circle(50% at 50% 50%);
+  width: 200px;
+}
+.members .mem_box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 30px;
+}
+.members .mem_box .social_icon img {
+  margin: 10px 5px;
+  width: 40px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 5vw;
+}
+.contact .inner_sec {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.contact .inner_sec .contact_sec {
+  /* padding: 10px 20px; */
+  margin: 10px 50px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}
+.contact .inner_sec .contact_sec div{
+  display: flex;
+  /* justify-content: center; */
+}
+.contact .inner_sec .contact_sec img{
+  filter: invert(100%);
+  margin: 10px 30px;
+}
+.contact .inner_sec .contact_sec input,
+.contact .inner_sec .contact_sec textarea{
+  padding: 5px 8px;
+  margin: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.contact .inner_sec .contact_sec textarea{
+  height: 80px;
+}
+
